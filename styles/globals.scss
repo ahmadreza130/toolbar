@@ -1,0 +1,37 @@
+
+  button {
+    border: none;
+    background: none;
+    overflow: hidden;
+   
+  }
+
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  color: aliceblue;
+}
+/*button:focus{
+  .icon{
+    color: rgb(4, 82, 11);
+  }
+}*/
+
+#toolbar {
+  background: #161d2f;
+  height: 100vh;
+  
+  div {
+    margin-left: 10px;
+    padding-top: 15px;
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
